@@ -1,0 +1,52 @@
+img{
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+.card-container{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+   margin: 10px;
+}
+
+span{
+    color: rgb(231, 137, 64);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+   
+    bottom: 0; 
+    height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(231, 137, 64);
+    width: 100%;
+  }
+
+
+@media (max-width:935px){
+img{
+    float: none;
+}
+   
+p{
+    width: 300px;
+    margin-left: 10px;
+}
+h2{
+    margin-left: 10px;
+}
+}
+@media (max-width:660px){
+
+.card-container{
+    display: block;
+}
+}
